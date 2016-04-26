@@ -1,3 +1,6 @@
 [submodule "Assets/Watson"]
 	path = Assets/Watson
 	url = git@github.com:watson-developer-cloud/unity-sdk.git
+[submodule "Assets/Plugins/Editor/VSCode"]
+	path = Assets/Plugins/Editor/VSCode
+	url = https://github.com/dotBunny/VSCode.git
