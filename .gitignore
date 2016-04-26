@@ -1,38 +1,41 @@
 # =============== #
 # Unity generated #
 # =============== #
-Temp/
-Obj/
-UnityGenerated/
-Library/
-
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+ 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
-ExportedObj/
+[Ee]xported[Oo]bj/
+.vs/
 *.svd
-*.userprefs
-*.pidb
-*.suo
-*.user
-*.unityproj
-*.booproj
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
  
 # ============ #
 # OS generated #
 # ============ #
-.DS_Store
-.DS_Store?
+.DS_Store*
 ._*
 .Spotlight-V100
 .Trashes
 Icon?
 ehthumbs.db
+[Tt]humbs.db
 
 # ============== #
 # Custom Folders #
 # ============== #
 Assembly-CSharp-Editor.csproj
 Assembly-CSharp.csproj
-
-
