@@ -110,6 +110,9 @@
  <Reference Include="UnityEditor.TreeEditor">
  <HintPath>/Applications/Unity 5.3.4/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
+ <Reference Include="HtmlAgilityPack">
+ <HintPath>/Users/ajiemarsantiago/Documents/_projects/wdc-unity-sdk/Assets/unity-sdk/ThirdParty/HtmlAgilityPack/HtmlAgilityPack.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity 5.3.4/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -124,9 +127,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity 5.3.4/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="HtmlAgilityPack">
- <HintPath>/Users/ajiemarsantiago/Documents/_projects/wdc-unity-sdk/Assets/unity-sdk/ThirdParty/HtmlAgilityPack/HtmlAgilityPack.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity 5.3.4/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
