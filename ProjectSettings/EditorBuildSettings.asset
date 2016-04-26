@@ -4,4 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Watson/Scenes/Main.unity
+  - enabled: 1
+    path: Assets/Watson/Scenes/ExampleDialog.unity
+  - enabled: 1
+    path: Assets/Watson/Scenes/ExampleTranslation.unity
+  - enabled: 1
+    path: Assets/Watson/Scenes/TestMic.unity
+  - enabled: 1
+    path: Assets/Watson/Scenes/TestNaturalLanguageClassifier.unity
+  - enabled: 1
+    path: Assets/Watson/Scenes/TestSpeechToText.unity
+  - enabled: 1
+    path: Assets/Watson/Scenes/TestTextToSpeech.unity
+  - enabled: 1
+    path: Assets/Watson/Scenes/UnitTests.unity
