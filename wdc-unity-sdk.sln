@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{A15B8D4D-D3C3-6012-6F4C-8C44C33F7A0D}") = "wdc-unity-sdk", "Assembly-CSharp.csproj", "{880F20CB-9171-0DB4-3929-355D49CC147E}"
 EndProject
+Project("{A15B8D4D-D3C3-6012-6F4C-8C44C33F7A0D}") = "wdc-unity-sdk", "Assembly-CSharp-Editor-firstpass.csproj", "{0AE2D487-264F-4E71-7783-BF689C444CEB}"
+EndProject
 Project("{A15B8D4D-D3C3-6012-6F4C-8C44C33F7A0D}") = "wdc-unity-sdk", "Assembly-CSharp-Editor.csproj", "{BAE4CEDD-2CEF-8E92-4840-ADECDF4CED26}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{880F20CB-9171-0DB4-3929-355D49CC147E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{880F20CB-9171-0DB4-3929-355D49CC147E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{880F20CB-9171-0DB4-3929-355D49CC147E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE2D487-264F-4E71-7783-BF689C444CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE2D487-264F-4E71-7783-BF689C444CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE2D487-264F-4E71-7783-BF689C444CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE2D487-264F-4E71-7783-BF689C444CEB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BAE4CEDD-2CEF-8E92-4840-ADECDF4CED26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BAE4CEDD-2CEF-8E92-4840-ADECDF4CED26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAE4CEDD-2CEF-8E92-4840-ADECDF4CED26}.Release|Any CPU.ActiveCfg = Release|Any CPU
