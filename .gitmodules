@@ -1,0 +1,3 @@
+[submodule "Assets/unity-sdk"]
+	path = Assets/unity-sdk
+	url = git@github.com:watson-developer-cloud/unity-sdk.git
