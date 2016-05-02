@@ -1,6 +1,6 @@
 #! /bin/sh
 
-project="watson-developer-cloud-unity-sdk"
+project="watson-developer-cloud-unity-sdk-testbed"
 
 echo "Attempting to build $project for Windows"
 /Applications/Unity/Unity.app/Contents/MacOS/Unity \
