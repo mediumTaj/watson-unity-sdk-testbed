@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BAE4CEDD-2CEF-8E92-4840-ADECDF4CED26}</ProjectGuid>
+    <ProjectGuid>{58473B2B-9F5B-E95C-0DB2-5AE4ED59A579}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -110,7 +110,7 @@
  <HintPath>/Applications/Unity 5.3.4/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="HtmlAgilityPack">
- <HintPath>/Users/ajiemarsantiago/Documents/_projects/wdc-unity-sdk/Assets/Watson/ThirdParty/HtmlAgilityPack/HtmlAgilityPack.dll</HintPath>
+ <HintPath>/Users/ajiemarsantiago/Documents/_projects/watson-unity-sdk-testbed/Assets/Watson/ThirdParty/HtmlAgilityPack/HtmlAgilityPack.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity 5.3.4/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -136,9 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{880F20CB-9171-0DB4-3929-355D49CC147E}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{0AE2D487-264F-4E71-7783-BF689C444CEB}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+      <Project>{264D0B4C-41F2-6E4B-1767-80D84924ED4A}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

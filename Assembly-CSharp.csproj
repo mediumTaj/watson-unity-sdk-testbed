@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{880F20CB-9171-0DB4-3929-355D49CC147E}</ProjectGuid>
+    <ProjectGuid>{264D0B4C-41F2-6E4B-1767-80D84924ED4A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -332,7 +332,7 @@
  <HintPath>/Applications/Unity 5.3.4/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="HtmlAgilityPack">
- <HintPath>/Users/ajiemarsantiago/Documents/_projects/wdc-unity-sdk/Assets/Watson/ThirdParty/HtmlAgilityPack/HtmlAgilityPack.dll</HintPath>
+ <HintPath>/Users/ajiemarsantiago/Documents/_projects/watson-unity-sdk-testbed/Assets/Watson/ThirdParty/HtmlAgilityPack/HtmlAgilityPack.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
