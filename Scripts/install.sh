@@ -5,6 +5,8 @@ HASH=fdbb5133b820
 VERSION=5.3.4f1
 
 download() {
+  echo "Downloading"
+
   file=$1
   url="$BASE_URL/$HASH/$package"
 
@@ -13,6 +15,7 @@ download() {
 }
 
 install() {
+  echo "Installing"
   package=$1
   download "$package"
 
