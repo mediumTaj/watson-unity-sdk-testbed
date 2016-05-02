@@ -4,3 +4,5 @@ rvm:
 - 2.1.2
 install:
 - ./Scripts/install.sh
+script:
+- ./Scripts/build.sh
