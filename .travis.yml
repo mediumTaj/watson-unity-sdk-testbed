@@ -2,5 +2,5 @@ language: objective-c
 
 rvm:
 - 2.1.2
-script:
-- ./Scripts/build.sh
+install:
+- ./Scripts/install.sh
