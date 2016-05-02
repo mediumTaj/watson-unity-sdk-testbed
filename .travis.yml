@@ -1,2 +1,1 @@
-language: csharp
-solution: watson-unity-sdk-testbed.sln
+language: objective-c
