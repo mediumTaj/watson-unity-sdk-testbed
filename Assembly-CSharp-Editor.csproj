@@ -82,7 +82,6 @@
      <None Include="Assets\Watson\Scripts\Editor\TestData\pizza_sample.xml" />
      <None Include="Assets\Watson\ThirdParty\TouchScript\Shaders\DebugMultiplyDepthTest.shader" />
      <None Include="Assets\Watson\ThirdParty\TouchScript\Shaders\DebugNoDepthTest.shader" />
-     <None Include="Assets\Watson\license.txt" />
      <None Include="Assets\Watson\ThirdParty\HtmlAgilityPack\HtmlAgilityPack.xml" />
      <None Include="Assets\Watson\ThirdParty\TouchScript\Shaders\DebugMultiplyNoDepthTest.shader" />
      <None Include="Assets\Watson\ThirdParty\WebSocketSharp\LICENSE.txt" />

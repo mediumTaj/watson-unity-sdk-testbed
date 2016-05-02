@@ -45,12 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ExampleDIalog.cs" />
-     <Compile Include="Assets\Scripts\ExampleSpeechToText.cs" />
-     <Compile Include="Assets\Scripts\ExampleTextToSpeech.cs" />
-     <Compile Include="Assets\Watson\Scenes\Scripts\ConfigLoader.cs" />
-     <Compile Include="Assets\Watson\Scenes\Scripts\LogSystemInitilization.cs" />
-     <Compile Include="Assets\Watson\Scenes\Scripts\MainUI.cs" />
+     <Compile Include="Assets\Watson\Examples\ServiceExamples\Scripts\ExampleDIalog.cs" />
+     <Compile Include="Assets\Watson\Examples\ServiceExamples\Scripts\ExampleLanguageTranslation.cs" />
+     <Compile Include="Assets\Watson\Examples\ServiceExamples\Scripts\ExampleNaturalLanguageClassifier.cs" />
+     <Compile Include="Assets\Watson\Examples\ServiceExamples\Scripts\ExampleSpeechToText.cs" />
+     <Compile Include="Assets\Watson\Examples\ServiceExamples\Scripts\ExampleTextToSpeech.cs" />
+     <Compile Include="Assets\Watson\Scenes\UnitTests\Scripts\ConfigLoader.cs" />
+     <Compile Include="Assets\Watson\Scenes\UnitTests\Scripts\LogSystemInitilization.cs" />
+     <Compile Include="Assets\Watson\Scenes\UnitTests\Scripts\MainUI.cs" />
      <Compile Include="Assets\Watson\Scripts\Camera\CameraTarget.cs" />
      <Compile Include="Assets\Watson\Scripts\Camera\HotCorner.cs" />
      <Compile Include="Assets\Watson\Scripts\Camera\WatsonCamera.cs" />
@@ -320,7 +322,6 @@
      <None Include="Assets\Watson\Scripts\Editor\TestData\pizza_sample.xml" />
      <None Include="Assets\Watson\ThirdParty\TouchScript\Shaders\DebugMultiplyDepthTest.shader" />
      <None Include="Assets\Watson\ThirdParty\TouchScript\Shaders\DebugNoDepthTest.shader" />
-     <None Include="Assets\Watson\license.txt" />
      <None Include="Assets\Watson\ThirdParty\HtmlAgilityPack\HtmlAgilityPack.xml" />
      <None Include="Assets\Watson\ThirdParty\TouchScript\Shaders\DebugMultiplyNoDepthTest.shader" />
      <None Include="Assets\Watson\ThirdParty\WebSocketSharp\LICENSE.txt" />
