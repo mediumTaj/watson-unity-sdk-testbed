@@ -5,4 +5,5 @@ rvm:
 install:
 - ./Scripts/install.sh
 script:
+- ./Scripts/runUnitTests.sh
 - ./Scripts/build.sh
