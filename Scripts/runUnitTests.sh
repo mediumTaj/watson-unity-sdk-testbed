@@ -8,9 +8,9 @@ project="watson-developer-cloud-unity-sdk-testbed"
   -projectPath $(pwd) \
   -quit
 if [ $? != 0 ] ; then 
-	echo "UnitTest COMPLETED!"
-	exit 0
-else
 	echo "UnitTest FAILED!"
 	exit 1
+else
+	echo "UnitTest COMPLETED!"
+	exit 0
 fi
