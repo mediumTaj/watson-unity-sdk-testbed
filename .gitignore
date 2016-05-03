@@ -39,3 +39,5 @@ ehthumbs.db
 # ============== #
 Assembly-CSharp-Editor.csproj
 Assembly-CSharp.csproj
+Assets/StreamingAssets/Config.json
+Assets/StreamingAssets/Config.json.meta
