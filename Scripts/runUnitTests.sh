@@ -1,9 +1,13 @@
 echo Running UnitySDK UnitTest...
 
-SET PROJECT=%CD%\..\
-IF "%UNITY_EXE%"=="" SET "UNITY_EXE=/Applications/Unity/Unity.app/Contents/MacOS/Unity \"
+project="watson-developer-cloud-unity-sdk-testbed"
 
-"%UNITY_EXE%" -batchmode -executemethod RunUnitTest.All -projectPath %PROJECT%
+/Applications/Unity/Unity.app/Contents/MacOS/Unity \
+  -batchmode \
+  -executemethod RunUnitTest.All \
+  -projectPath $(pwd) \
+  -quit
+  
 IF NOT "%ERRORLEVEL%"=="0" goto error
 
 :success
