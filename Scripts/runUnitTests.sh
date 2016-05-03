@@ -1,4 +1,4 @@
-echo Running UnitySDK UnitTest...
+echo Running UnitySDK UnitTests...
 
 project="watson-developer-cloud-unity-sdk-testbed"
 
@@ -7,12 +7,10 @@ project="watson-developer-cloud-unity-sdk-testbed"
   -executemethod RunUnitTest.All \
   -projectPath $(pwd) \
   -quit
-  
-IF NOT "%ERRORLEVEL%"=="0" goto error
-
-:success
-echo 'UnitTest COMPLETED!"
-exit /B 0
-:error
-echo "UnitTest FAILED!"
-exit /B 1
+if [ $? != 0 ] ; then 
+	echo "UnitTest COMPLETED!"
+	exit 0
+else
+	echo "UnitTest FAILED!"
+	exit 1
+fi
